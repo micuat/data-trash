@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change to your default branch if different
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,10 +15,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Use a stable version
+          node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build
         run: npm run build
@@ -27,5 +27,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs  # Matches your BUILD_PATH
-          cname: data-trash.glitches.me  # Uses your CNAME for custom domain
+          publish_dir: ./docs
+          cname: data-trash.glitches.me
