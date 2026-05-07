@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/card-showcase-app/static/css/main.3c6ef718.css",
+    "main.js": "/card-showcase-app/static/js/main.6e19bb75.js",
+    "index.html": "/card-showcase-app/index.html",
+    "main.3c6ef718.css.map": "/card-showcase-app/static/css/main.3c6ef718.css.map",
+    "main.6e19bb75.js.map": "/card-showcase-app/static/js/main.6e19bb75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c6ef718.css",
+    "static/js/main.6e19bb75.js"
+  ]
+}
