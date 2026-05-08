@@ -1,6 +1,7 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import Card from './components/Card';
+import "7.css/dist/7.css";
 
 const App = () => {
   const [memoryCard, setMemoryCard] = useState(null);
